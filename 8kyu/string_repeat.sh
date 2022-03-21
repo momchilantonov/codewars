@@ -8,9 +8,7 @@
 # repeat=$1
 # string=$2
 
-repeatStr() for i in $(seq $1); do
-    echo -n $2
-done
+repeatStr() for i in $(seq $1); do echo -n $2; done
 
 # TESTS
 repeatStr 10 "I"
