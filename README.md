@@ -1,1 +1,2 @@
 Codewars challenges
+Enjoy!
